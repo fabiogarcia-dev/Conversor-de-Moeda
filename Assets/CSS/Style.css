@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(138, 81, 252, 1);
+    padding-left: 40%;
+}
+.main-logo{
+    display: block;
+    width: 200px;
+    margin-top: 12px;
+    margin-left: 60px;
+}
+
+main{
+    width: 300px;
+    height: 500px;
+    background: rgba(244, 244, 244, 1);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+label{
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #777777;
+}
+
+select{
+    appearance: none;
+    width: 250px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #555555;
+    outline: 0;
+    padding-left: 10px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    outline: 0;
+    padding-left: 10px;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    background-color: #772FD3;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.6;
+    background-color: yellowgreen;
+}
+
+section{
+    margin-top: 10px;
+    width: 250px;
+    height: 250px;
+    left: 24px;
+    top: 413px;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    text-align: center;
+}
+
+div>img{
+    width: 30px;
+    margin-top: 12px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+#seta{
+    margin-top: 10px;
+}
+
+.valor{
+    font-weight: bold;  
+}
